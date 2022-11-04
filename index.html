@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URLDEV</title>
+    <link rel="stylesheet" href="css/shortenurl.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <!--Hey! This is the original version
+of Simple CSS Waves-->
+
+<div class="header">
+
+    <!--Content before waves-->
+    <div class="inner-header flex">
+        <div class="logoheader">
+            <img src="logo2.png" alt="URLDEV Logo">
+            <h1>URLDEV</h1>
+        </div>
+    <div class="container">
+    
+        <div class="input-container">
+            <label>Enter URL</label><br>
+            <input type="url" id="inputurl" placeholder="https://example.com"><br>
+            <button class="btn-submit">Short</button>
+            <p class="error"></p>
+        </div>
+    
+        <div class="result-container">
+            <label>Shorten URL</label><br>
+            <div class="contents">
+    
+                <input type="text" id="copybox" readonly>
+                <button class="copy-btn"><i class="fa-regular fa-clipboard"></i></button>
+            </div>
+        </div>
+    
+        <div class="info">
+            <h2><b>Powered By <a href="https://rtechcode.rf.gd">RTechCode</a></b></h2>
+            <div class="social_media">
+                <a href="https://www.instagram.com/rtechcode/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/profile.php?id=100071721978203"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/rajmarkana/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:rtechcode101@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                
+            </div>
+        </div>
+    
+    </div>
+    
+       </div>
+    
+    <!--Waves Container-->
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+    <!--Waves end-->
+    
+    </div>
+    <!--Header ends-->
+    
+
+    
+
+    <script src="js/JqueryFile.js"></script>
+    <script src="js/shorturl.js" ></script>
+    
+</body>
+</html>
